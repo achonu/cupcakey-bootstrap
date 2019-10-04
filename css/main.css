@@ -1,0 +1,72 @@
+html, body {
+	background:url('../img/rsz_background-img4.jpg') center center no-repeat;
+	height: 100%;
+	background-size:cover;
+}
+
+
+@media screen and (max-width:568px) {
+	.btn {
+		margin-top: 10px;
+	}
+}
+
+
+#logo img{
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+#intro p {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+}
+
+span {
+	color: #ed5485;
+}
+
+.countdown ,#counter {
+	text-align: center;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 30px;
+}
+
+.form-control {
+	text-align: center;
+}
+
+.form-control-sm {
+	margin-bottom: 10px;
+}
+
+
+.form-control::-webkit-input-placeholder {
+  color: black;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+}
+
+.btn {
+	background-color: #ed5485;
+	color:#fff;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #ed5485;
+	font-weight: bolder;
+}
+
+
+#signup {
+    text-align: center;
+
+}
+
+#signup .form-inline {
+  display: block;  /*centers the signup*/
+	margin-top:20px;
+
+}
